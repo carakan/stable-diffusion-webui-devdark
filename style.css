@@ -138,6 +138,12 @@ body {
   accent-color: var(--ctp-range-color);
 }
 
+.dark .gradio-button.generate-box-skip,
+.dark .gradio-button.generate-box-interrupt{
+  background: var(--ctp-yellow);
+  color: var(--ctp-surface0);
+}
+
 .gradio-dropdown>ul.options>li.item:hover,
 .dark .gradio-dropdown ul.options li.item.selected {
   background: var(--background-fill-primary)!important;
