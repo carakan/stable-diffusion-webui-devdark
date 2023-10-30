@@ -140,7 +140,7 @@ body {
 
 .dark .gradio-button.generate-box-skip,
 .dark .gradio-button.generate-box-interrupt{
-  background: var(--ctp-yellow);
+  background: var(--ctp-blue);
   color: var(--ctp-surface0);
 }
 
