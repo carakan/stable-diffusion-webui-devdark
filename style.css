@@ -62,7 +62,7 @@
   --block_title_border_color: None;
   --block_title_border_width: None;
   --block-title-text-color: var(--ctp-text);
-  --panel-background-fill: var(--background-fill-secondary);
+  --panel-background-fill: var(--ctp-mantle);
   --panel-border-color: var(--border-color-primary);
   --panel_border_width: None;
   --checkbox-background-color: var(--ctp-surface1);
