@@ -124,7 +124,7 @@
   --button-primary-text-color: var(--ctp-base);
   --button-primary-text-color-hover: var(--button-primary-text-color);
   --button-secondary-background-fill: var(--ctp-surface0);
-  --button-secondary-background-fill-hover: var(--ctp-surface0);
+  --button-secondary-background-fill-hover: var(--ctp-surface1);
   --button-secondary-border-color: var(--ctp-surface0);
   --button-secondary-border-color-hover: var(--button-secondary-border-color);
   --button-secondary-text-color: var(--ctp-text);
@@ -191,4 +191,9 @@ div.svelte-1oo81b7>*:not(.absolute) {
 .dark #context-menu {
   border-color: var(--ctp-accent);
   box-shadow: 1px 1px 2px var(--ctp-accent-hover);
+}
+
+.tab-nav button.selected {
+  font-weight: 700;
+  text-shadow: #777 0px 0 10px;
 }
