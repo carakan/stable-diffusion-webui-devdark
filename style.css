@@ -184,3 +184,11 @@ div.svelte-1oo81b7>*:not(.absolute) {
   flex-direction: column;
 }
 
+.dark .context-menu-items a:hover {
+  background: var(--ctp-accent);
+}
+
+.dark #context-menu {
+  border-color: var(--ctp-accent);
+  box-shadow: 1px 1px 2px var(--ctp-accent-hover);
+}
