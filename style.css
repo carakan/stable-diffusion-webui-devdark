@@ -197,3 +197,12 @@ div.svelte-1oo81b7>*:not(.absolute) {
   font-weight: 700;
   text-shadow: #777 0px 0 10px;
 }
+
+.dark .label-wrap.open span {
+  font-weight: 700;
+  text-shadow: #777 0px 0 10px;
+}
+
+.image-container {
+  background-color: var(--input-background-fill);
+}
